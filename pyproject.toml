@@ -1,0 +1,17 @@
+[project]
+name = "mcp-data-handler"
+version = "0.1.0"
+description = "MCP server for internet search and file management"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "mcp>=1.0.0",
+    "duckduckgo-search>=8.0.0",
+]
+
+[project.scripts]
+mcp-data-handler = "mcp_server:mcp.run"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"

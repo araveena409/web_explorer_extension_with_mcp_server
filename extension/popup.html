@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>MCP Explorer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>MCP Explorer</h1>
+        <div class="input-group">
+            <textarea id="promptInput" placeholder="What would you like to search for? (e.g. Nobel prize winners 2025)"></textarea>
+            <button id="submitBtn">Search & Save</button>
+        </div>
+        
+        <div id="loader" class="hidden">
+            <div class="spinner"></div>
+            <p>Gemini is thinking...</p>
+        </div>
+
+        <div id="results" class="hidden">
+            <section class="result-section">
+                <h3>Text Response</h3>
+                <div id="textContent" class="content-box"></div>
+            </section>
+
+            <section class="result-section">
+                <h3>PreFab UI Component</h3>
+                <div id="prefabContainer" class="prefab-card"></div>
+            </section>
+
+            <section class="result-section">
+                <h3>Saved File Content</h3>
+                <div id="fileContent" class="content-box"></div>
+            </section>
+        </div>
+    </div>
+    <script src="popup.js"></script>
+</body>
+</html>

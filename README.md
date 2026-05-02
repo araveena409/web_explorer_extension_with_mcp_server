@@ -4,7 +4,7 @@ A complete agentic ecosystem integrating a **Chrome Extension Side Panel**, a **
 
 ---
 
-# YOU TUBE Demo link
+### YouTube Demo link
 https://youtu.be/jEee6HWjSpk
 
 ## 🏗️ Architecture
